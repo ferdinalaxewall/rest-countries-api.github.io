@@ -514,3 +514,105 @@ body[dark-mode=on] #search-icon{
     place-items: center;
     gap:20px;
 }
+
+@media(max-width:375px){
+    .navigation-bar{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .navigation-bar .navbar-brand{
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    #home-section-header{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    #select-wrapper{
+        justify-content: start !important;
+        margin-top: 15px;
+    }
+
+    .card{
+        margin: 10px;
+    }
+
+    .theme-toggle-button{
+        padding: 7.5px 15px;
+    }
+
+    #search-icon{
+        left: calc(100% - 20px);
+        transform: translate(-100%, -50%);
+        -webkit-transform: translate(-100%, -50%);
+        -moz-transform: translate(-100%, -50%);
+        -ms-transform: translate(-100%, -50%);
+        -o-transform: translate(-100%, -50%);
+    }
+
+    #input-search-country{
+        padding-left: 20px !important;
+        padding-right: 50px !important;
+    }
+
+    .detail-card-section{
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #detail-country-content-wrapper{
+        margin-top: 50px !important;
+    }
+
+    .detail-country-name{
+        font-size: 24px;
+    }
+
+    .detail-card-img{
+        width: 100%;
+    }
+
+    .detail-card-section{
+        font-size: var(--fs-home-page-default);
+    }
+    
+    .border-countries-title, .detail-card-section .text-subtitle{
+        font-size: var(--fs-home-page-default);
+    }
+
+    .detail-content-wrapper{
+        height: auto;
+    }
+
+    #description-right-box{
+        margin-top: 20px;
+    }
+
+    .border-countries-group{
+        flex-direction: column;
+    }
+
+    .border-countries-title{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .country-button{
+        font-size: 12px;
+    }
+
+    .country-button-group{
+        grid-template-columns: repeat(3, minmax(100px, 1fr));
+        gap: 10px;
+    }
+
+}

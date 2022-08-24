@@ -177,7 +177,7 @@ function getCountryDataByName(countryData){
         let detailContentHtml = '<div class="col-lg-6">'+
         '                <img src="'+ flagSource +'" class="detail-card-img" alt="'+ countryName +' Flags">'+
         '            </div>'+
-        '            <div class="col-lg-6 d-flex flex-column justify-content-evenly">'+
+        '            <div class="col-lg-6 d-flex flex-column justify-content-evenly" id="detail-country-content-wrapper">'+
         '                <h3 class="detail-country-name">'+ countryName +'</h3>'+
         '                <div class="row detail-country-description">'+
         '                    <div class="col-md-6">'+
@@ -187,7 +187,7 @@ function getCountryDataByName(countryData){
         '                        <p class="detail-subtitle"><span class="text-subtitle">Sub Region:</span>'+ subRegion +'</p>'+
         '                        <p class="detail-subtitle"><span class="text-subtitle">Capital:</span>'+ capital +'</p>'+
         '                    </div>'+
-        '                    <div class="col-md-6">'+
+        '                    <div class="col-md-6" id="description-right-box">'+
         '                        <p class="detail-subtitle"><span class="text-subtitle">Top Level Domain:</span>'+ tld +'</p>'+
         '                        <p class="detail-subtitle"><span class="text-subtitle">Currencies:</span><span id="currencies-name"></span></p>'+
         '                        <p class="detail-subtitle"><span class="text-subtitle">Languages:</span><span id="languages"></span></p>'+
