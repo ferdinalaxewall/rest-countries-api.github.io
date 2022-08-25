@@ -615,4 +615,8 @@ body[dark-mode=on] #search-icon{
         gap: 10px;
     }
 
+    .navigation-bar .theme-toggle-button svg{
+        margin-right: 7.5px !important;
+    }
+
 }
